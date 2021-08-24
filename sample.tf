@@ -13,7 +13,7 @@ provider "aws" {
   region  = "us-west-1"
 }
 
-resource "aws_instance" "app_seraver" {
+resource "aws_instance" "app_server" {
   associate_public_ip_address = true
   ami           = "ami-830c94e3"
   instance_type = "t2.micro"
